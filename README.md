@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/screenshot1.jpg)
+![Mobile View](./screenshots/mobile-view.png)
 
 ### Links
 
@@ -36,9 +36,10 @@ Users should be able to:
 
 - HTML
 - CSS
+- Mobile-first workflow
 - Flexbox
 - Grid
-- Mobile-first workflow
+
 
 ### What I learned
 
