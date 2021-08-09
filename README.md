@@ -23,7 +23,11 @@ Users should be able to:
 
 ### Screenshot
 
+#### Mobile View
 ![Mobile View](./screenshots/mobile-view.png)
+
+#### Desktop View
+![Desktop View](./screenshots/desktop-view.png)
 
 ### Links
 
@@ -38,10 +42,6 @@ Users should be able to:
 - CSS
 - Mobile-first workflow
 - Flexbox
-- Grid
-
-
-### What I learned
 
 ## Author
 
