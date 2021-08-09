@@ -82,25 +82,71 @@ button {
     font-weight: 400;
     padding: 20px 35px;
     margin-top: 10px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
     
 }
 
 .btn-1 {
     color: var(--bright-orange);
+    border: 1px solid var(--bright-orange);
 }
 
 .btn-2 {
     color: var(--dark-cyan);
+    border: 1px solid var(--dark-cyan);
 }
 
 .btn-3 {
     color: var(--very-dark-cyan);
+    border: 1px solid var(--very-dark-cyan);
 }
 
 
 
+.btn-1:hover {
+    background: var(--bright-orange);
+    color: var(--very-light-gray);
+    border: 1px solid var(--very-light-gray);
+}
 
+.btn-2:hover {
+    background: var(--dark-cyan);
+    color: var(--very-light-gray);
+    border: 1px solid var(--very-light-gray);
+}
 
+.btn-3:hover {
+    background: var(--very-dark-cyan);
+    color: var(--very-light-gray);
+    border: 1px solid var(--very-light-gray);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/*==================== Desktop View =========================*/
+@media screen and (min-width: 1024px) {
+    .cols {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col {
+        max-width: 200px;
+    }
+
+    .col-1{
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0;
+    }
+
+    .col-3{
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+}
